@@ -14,7 +14,6 @@
             	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
             	<meta name="viewport" content="width=device-width" />
 
-              Canonical SEO 
               <link rel="canonical" href="http://www.creative-tim.com/product/material-dashboard-pro"/>
 
               <!--  Social tags      -->
