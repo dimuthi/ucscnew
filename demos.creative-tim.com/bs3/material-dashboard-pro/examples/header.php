@@ -14,7 +14,6 @@
             	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
             	<meta name="viewport" content="width=device-width" />
 
-              Canonical SEO 
               <link rel="canonical" href="http://www.creative-tim.com/product/material-dashboard-pro"/>
 
               <!--  Social tags      -->
@@ -81,7 +80,7 @@
 
               <div class="wrapper">
 
-               <div class="sidebar" data-active-color="rose" data-background-color="black" data-image="../assets/img/sidebar-1.jpg">
+               <div class="sidebar" data-active-color="rose" data-background-color="black" data-image="../assets/img/catrin-johnson-486188-unsplash.jpg">
                 <!--
                     Tip 1: You can change the color of active element of the sidebar using: data-active-color="purple | blue | green | orange | red | rose"
                     Tip 2: you can also add an image using data-image tag
