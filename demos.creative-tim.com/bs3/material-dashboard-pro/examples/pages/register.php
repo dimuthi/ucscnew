@@ -109,14 +109,14 @@
 
 
     <div class="wrapper wrapper-full-page">
-            <div class="full-page login-page" filter-color="black" data-image="../../assets/img/login.jpg">
+            <div class="full-page login-page" filter-color="black" data-image="../../assets/img/ucsc.jpg">
         <!--   you can change the color of the filter page using: data-color="blue | purple | green | orange | red | rose " -->
         <div class="content">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 col-sm-6 col-md-offset-4 col-sm-offset-3">
                         <form method="#" action="../dashboard.php">
-                            <div class="card card-login card-hidden" style="background-color: rgba(0,0,0,0.6);border: none">
+                            <div class="card card-login card-hidden" style="background-color: rgba(0,0,0,0.7);border: none">
                                 <div class="card-header text-center" data-background-color="rose">
                                     <h4 class="card-title">Sign up</h4>
                                     <div class="social-line">
