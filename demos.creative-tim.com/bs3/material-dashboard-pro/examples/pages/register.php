@@ -97,9 +97,9 @@
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li class= "">
-                    <a href="register.php">
-                        <i class="material-icons">person_add</i>
-                        Sign up
+                    <a href="login.php">
+                        <i class="material-icons">fingerprint</i>
+                        Sign in
                     </a>
                 </li>
             </ul>
@@ -118,7 +118,7 @@
                         <form method="#" action="../dashboard.php">
                             <div class="card card-login card-hidden" style="background-color: rgba(0,0,0,0.6);border: none">
                                 <div class="card-header text-center" data-background-color="rose">
-                                    <h4 class="card-title">Sign in</h4>
+                                    <h4 class="card-title">Sign up</h4>
                                     <div class="social-line">
                                         <a href="https://www.google.com/" target="_blank" class="btn btn-just-icon btn-simple">
                                             <i class="fa fa-google"></i>
@@ -154,19 +154,22 @@
                                             <input type="password" class="form-control">
                                         </div>
                                     </div>
+
+                                    <div class="input-group">
+                                        <span class="input-group-addon">
+                                            <i class="material-icons">lock_outline</i>
+                                        </span>
+                                        <div class="form-group label-floating">
+                                            <label class="control-label">Confirm Password</label>
+                                            <input type="password" class="form-control">
+                                        </div>
+                                    </div>
                                 </div>
                                <div class="footer text-center">
                                      <button type="submit" class="btn btn-rose btn-simple btn-wd btn-lg" style="color: #e9b500">
-                                         Sign In
+                                         Sign Up
                                         </button>
                                     </div>
-                                <!--<div *ngIf="failed" class="alert alert-danger" style="margin-left: 10px;margin-right: 10px;text-align: center;color: #870c00;font-weight: bold">
-                                    Incorrect username or password
-                                </div>-->
-                                <div class="row">
-                                    <div class="col-12" style="margin-left: 40px;color: #9e9e9e;font-size: 12px;cursor: pointer">Forgot / Change Password?
-                                    </div>
-                                </div>
                             </div>
                         </form>
                     </div>

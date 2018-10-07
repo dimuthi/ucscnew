@@ -117,9 +117,9 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="pages/login.php">
                                     <span class="sidebar-mini"> S </span>
-                                    <span class="sidebar-normal"> Settings </span>
+                                    <span class="sidebar-normal"> Sign out </span>
                                 </a>
                             </li>
                         </ul>
