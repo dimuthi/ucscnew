@@ -39,6 +39,20 @@ include "login-screen-header.php";
                                 </div>
                                
                                 <div class="card-content">
+
+                                    <div class="input-group">
+                                        <span class="input-group-addon">
+                                            <i class="material-icons">account_circle</i>
+                                        </span>
+                                        <div class="form-group label-floating">
+                                            <label class="control-label">I'm a/an</label>
+                                                <select class="selectpicker" data-style="select-with-transition" [(ngModel)]="user.accountType" name="txtType" style="color: white">
+                                                    <option>Admin</option>
+                                                    <option>User</option>
+                                                </select>
+                                        </div>
+                                        <!--<select class="selectpicker" data-style="select-with-transition" multiple title="Choose City" data-size="7">-->
+                                    </div>
                               
                                     <div class="input-group">
                                         <span class="input-group-addon">
