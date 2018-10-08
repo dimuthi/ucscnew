@@ -120,7 +120,8 @@ try{
     </script>
 
 
-
+    <!--edit-->
+    <script src="../js/accountChange.js"></script>
 
 
 <!-- Mirrored from demos.creative-tim.com/bs3/material-dashboard-pro/examples/pages/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Jul 2018 13:04:38 GMT -->

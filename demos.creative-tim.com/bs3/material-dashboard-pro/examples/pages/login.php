@@ -2,8 +2,8 @@
 include "login-screen-header.php";
 ?>
 
-<div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-right">
+    <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right" id="signUpApp">
                 <li class= "">
                     <a href="register.php">
                         <i class="material-icons">person_add</i>
@@ -13,7 +13,7 @@ include "login-screen-header.php";
             </ul>
         </div>
     </div>
-</nav>
+    </nav>
     <div class="wrapper wrapper-full-page">
             <div class="full-page login-page" filter-color="black" data-image="../../assets/img/login.jpg">
         <!--   you can change the color of the filter page using: data-color="blue | purple | green | orange | red | rose " -->
@@ -47,8 +47,8 @@ include "login-screen-header.php";
                                         <div class="form-group label-floating">
                                             <label class="control-label">I'm a/an</label>
                                                 <select class="selectpicker" data-style="select-with-transition" [(ngModel)]="user.accountType" name="txtType" style="color: white">
-                                                    <option>Admin</option>
-                                                    <option>User</option>
+                                                    <option value="user">User</option>
+                                                    <option value="applicant">Applicant</option>
                                                 </select>
                                         </div>
                                         <!--<select class="selectpicker" data-style="select-with-transition" multiple title="Choose City" data-size="7">-->
@@ -84,7 +84,7 @@ include "login-screen-header.php";
                                     Incorrect username or password
                                 </div>-->
                                 <div class="row">
-                                    <div class="col-12" style="margin-left: 40px;color: #9e9e9e;font-size: 12px;cursor: pointer">Forgot / Change Password?
+                                    <div id="fgt" class="col-12" style="margin-left: 40px;color: #9e9e9e;font-size: 12px;cursor: pointer">Forgot / Change Password?
                                     </div>
                                 </div>
                             </div>
