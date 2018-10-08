@@ -47,8 +47,8 @@ include "login-screen-header.php";
                                         <div class="form-group label-floating">
                                             <label class="control-label">I'm a/an</label>
                                                 <select class="selectpicker" data-style="select-with-transition" [(ngModel)]="user.accountType" name="txtType" style="color: white">
-                                                    <option value="user">User</option>
                                                     <option value="applicant">Applicant</option>
+                                                    <option value="user">User</option>
                                                 </select>
                                         </div>
                                         <!--<select class="selectpicker" data-style="select-with-transition" multiple title="Choose City" data-size="7">-->

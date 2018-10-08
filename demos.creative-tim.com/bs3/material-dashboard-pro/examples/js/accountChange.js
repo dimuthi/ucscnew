@@ -1,8 +1,15 @@
+$(document).ready(function () {
+    signUpVisibility();
+})
+
 $('.selectpicker').change(function () {
-    if ($('.selectpicker').find(':selected').text() == "Applicant") {
-        console.log($('.selectpicker').find(':selected').text());
-        $('#signUpApp').hide();
-    } else if ($('.selectpicker').find(':selected').text() == "User") {
-        $('#signUpApp').show();
-    }
+    signUpVisibility();
 });
+
+function signUpVisibility() {
+    if ($('.selectpicker').find(':selected').text() == "Applicant") {
+        $('#signUpApp').show();
+    } else if ($('.selectpicker').find(':selected').text() == "User") {
+        $('#signUpApp').hide();
+    }
+}
