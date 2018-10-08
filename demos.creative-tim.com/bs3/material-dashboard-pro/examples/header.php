@@ -175,7 +175,7 @@
 </li>
 
 <li>
-    <a href="calendar.html">
+    <a href="contact.php">
         <i class="material-icons">call</i>
         <p> Contact </p>
     </a>
