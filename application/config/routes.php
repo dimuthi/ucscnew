@@ -59,6 +59,7 @@ $route['register'] = 'SignUp';
 $route['login'] = 'SignIn';
 $route['main'] = 'Dashboard';
 $route['main/contact'] = 'Contact';
+$route['main/applicants'] = 'Applicants';
 
 $route['login/process'] = 'SignIn/process';
 $route['login/logout'] = 'SignIn/logout';
