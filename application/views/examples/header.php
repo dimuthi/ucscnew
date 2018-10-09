@@ -128,8 +128,14 @@
             </div>
             <ul class="nav">
 
-                <li class="active">
-                    <a href="dashboard.html">
+                <li
+                <?php
+                if(basename($_SERVER['PHP_SELF'])=="main"){
+                    echo "class='active'";
+                }
+                ?>
+                >
+                    <a href="<?= base_url('main')?>">
                         <i class="material-icons">dashboard</i>
                         <p> Dashboard </p>
                     </a>
@@ -174,7 +180,13 @@
     </a>
 </li>
 
-<li>
+    <li
+    <?php
+    if(basename($_SERVER['PHP_SELF'])=="contact"){
+        echo "class='active'";
+    }
+    ?>
+    >
     <a href="<?= base_url('main/contact')?>">
         <i class="material-icons">call</i>
         <p> Contact </p>
