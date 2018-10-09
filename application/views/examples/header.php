@@ -1,7 +1,6 @@
 <?php
-session_start();
-//$_SESSION["type"] = "Applicant";
-$_SESSION["type"] = "User";
+$this->load->library('session');
+//echo $_SESSION["accountType"];
 ?>
 <!doctype html>
 <html lang="en">
@@ -120,7 +119,7 @@ $_SESSION["type"] = "User";
                 <div class="info">
                     <a data-toggle="collapse" href="#collapseExample" class="collapsed">
                             <span>
-                               Tania Andrew 
+                               Tania Andrew
                                <b class="caret"></b>
                            </span>
                     </a>
@@ -140,7 +139,7 @@ $_SESSION["type"] = "User";
                                 </a>
                             </li>
                             <li>
-                                <a href="<?= base_url('login') ?>">
+                                <a href="<?= base_url('login/logout') ?>">
                                     <span class="sidebar-mini"> S </span>
                                     <span class="sidebar-normal"> Sign out </span>
                                 </a>
@@ -165,8 +164,8 @@ $_SESSION["type"] = "User";
                 </li>
 
                 <?php
-                if (isset($_SESSION["type"])) {
-                    if ($_SESSION["type"] == "Applicant") {
+                if (isset($_SESSION["accountType"])) {
+                    if ($_SESSION["accountType"] == "Applicant") {
                         ?>
                         <li>
                             <a data-toggle="collapse" href="#tablesExamples">
@@ -205,8 +204,8 @@ $_SESSION["type"] = "User";
                 ?>
 
                 <?php
-                if (isset($_SESSION["type"])) {
-                    if ($_SESSION["type"] == "User") {
+                if (isset($_SESSION["accountType"])) {
+                    if ($_SESSION["accountType"] == "User") {
                         ?>
                         <li>
                             <a href="calendar.html">
