@@ -1,9 +1,10 @@
 <?php
 include "header.php";
 ?>
-    <div class="content" style="padding-left: 0px;padding-right: 30px">
-        <nav class="navbar navbar-transparent navbar-absolute">
+    <div class="content" style="padding-left: 0px;">
+<!--        <nav class="navbar navbar-transparent navbar-absolute">-->
             <div class="container-fluid">
+
                 <div class="row">
                     <div class="col-md-12 col-12">
 
@@ -80,8 +81,9 @@ include "header.php";
                         <!-- /.card -->
                     </div>
                 </div>
+
             </div>
-        </nav>
+<!--        </nav>-->
     </div>
 
 <?php
