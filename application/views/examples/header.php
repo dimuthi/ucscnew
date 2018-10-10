@@ -1,9 +1,9 @@
 <?php
 $this->load->library('session');
 //echo $_SESSION["accountType"];
-//if (!isset($_SESSION["accountType"])) {
-//    redirect(base_url() . "login");
-//}
+if (!isset($_SESSION["accountType"])) {
+    redirect(base_url() . "login");
+}
 ?>
 <!doctype html>
 <html lang="en">
@@ -115,42 +115,16 @@ $this->load->library('session');
 
 
         <div class="sidebar-wrapper">
-            <div class="user">
-                <div class="photo">
-                    <img src="<?= base_url('assets/img/faces/avatar.jpg') ?>"/>
-                </div>
-                <div class="info">
-                    <a data-toggle="collapse" href="#collapseExample" class="collapsed">
-                            <span>
-                               Tania Andrew
-                               <b class="caret"></b>
-                           </span>
+
+            <ul class="nav">
+                <li>
+                    <a href="<?= base_url('login/logout') ?>">
+                        <i class="fa fa-power-off fa-3x" style="color: #E9B500"></i>
+                        <p style="color: #E9B500;font-weight: bold"> Sign Out </p>
                     </a>
-                    <div class="clearfix"></div>
-                    <div class="collapse" id="collapseExample">
-                        <ul class="nav">
-                            <li>
-                                <a href="#">
-                                    <span class="sidebar-mini"> MP </span>
-                                    <span class="sidebar-normal"> My Profile </span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="sidebar-mini"> EP </span>
-                                    <span class="sidebar-normal"> Edit Profile </span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="<?= base_url('login/logout') ?>">
-                                    <span class="sidebar-mini"> S </span>
-                                    <span class="sidebar-normal"> Sign out </span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+                </li>
+            </ul>
+            <div class="user" style="padding-bottom: 8px;margin-top: 0px"></div>
             <ul class="nav">
 
                 <li
@@ -287,6 +261,13 @@ $this->load->library('session');
 
         <nav class="navbar navbar-transparent navbar-absolute">
             <div class="container-fluid">
+                <div style="right: 0px;position: absolute;padding-right: 50px;font-weight: bold">Online -
+                    <?php
+                    if (isset($_SESSION["username"])) {
+                        echo $_SESSION["username"];
+                    }
+                    ?>
+                </div>
                 <div class="navbar-minimize">
                     <button id="minimizeSidebar" class="btn btn-round btn-white btn-fill btn-just-icon">
                         <i class="material-icons visible-on-sidebar-regular">more_vert</i>

@@ -1,8 +1,8 @@
 <?php
 $this->load->library('session');
-//if (isset($_SESSION["accountType"])) {
-//    redirect(base_url() . "main");
-//}
+if (isset($_SESSION["accountType"])) {
+    redirect(base_url() . "main");
+}
 ?>
 
 <!doctype html>
