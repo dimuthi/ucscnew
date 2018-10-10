@@ -19,7 +19,7 @@ include "header.php";
                                     <!--        Here you can write extra buttons/actions for the toolbar              -->
                                 </div>
                                 <div class="material-datatables">
-                                    <table class="table table-striped table-no-bordered table-hover datatables"
+                                    <table id="tblApplicants" class="table table-striped table-no-bordered table-hover datatables"
                                            cellspacing="0"
                                            width="100%" style="width:100%">
                                         <thead>
@@ -44,9 +44,9 @@ include "header.php";
                                         <tr style="font-size: 16px;background-color: white;height: 50px;cursor: pointer"
                                         <td></td>
                                         <td>abc</td>
-                                        <td>abc</td>
-                                        <td>abc</td>
-                                        <td>abc</td>
+                                        <td>bcd</td>
+                                        <td>efg</td>
+                                        <td>0</td>
                                         <td class="text-right">
                                             <a href="#" class="btn btn-simple btn-danger btn-icon remove"><i
                                                         class="material-icons">close</i></a>
@@ -58,18 +58,21 @@ include "header.php";
                                 <div style="height: 50px"></div>
                                 <div class="row">
                                     <div class="form-horizontal">
+<!--                                        <div class="col-sm-4">-->
+<!--                                            <button type="submit" class="btn btn-fill" style="left: 50%;transform: translateX(-50%);font-weight: bold">Calculate</button>-->
+<!--                                        </div>-->
                                         <div class="col-sm-2 label-on-left">Total Marks</div>
                                         <div class="col-sm-4">
                                             <div class="form-group label-floating is-empty">
                                                 <label class="control-label"></label>
-                                                <input type="text" class="form-control" disabled value="3">
+                                                <input type="text" class="form-control" disabled id="txtTotal" name="txtTotal">
                                             </div>
                                         </div>
                                         <div class="col-sm-2 label-on-left">Average</div>
                                         <div class="col-sm-4">
                                             <div class="form-group label-floating is-empty">
                                                 <label class="control-label"></label>
-                                                <input type="text" class="form-control" disabled value="50">
+                                                <input type="text" class="form-control" disabled id="txtAvg" name="txtAvg">
                                             </div>
                                         </div>
                                     </div>
@@ -80,14 +83,21 @@ include "header.php";
                                         <div class="col-sm-10">
                                             <div class="form-group label-floating is-empty">
                                                 <label class="control-label"></label>
-                                                <input type="text" class="form-control" name="txtId" disabled>
+                                                <input id="txtName" type="text" class="form-control" name="txtName" disabled>
                                             </div>
                                         </div>
                                         <div class="col-sm-2 label-on-left">Marks</div>
                                         <div class="col-sm-10">
                                             <div class="form-group label-floating is-empty">
                                                 <label class="control-label"></label>
-                                                <input type="text" class="form-control">
+                                                <input id="txtMarks" type="text" class="form-control" name="txtMarks">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2 label-on-left">Interviewers Count</div>
+                                        <div class="col-sm-10">
+                                            <div class="form-group label-floating is-empty">
+                                                <label class="control-label"></label>
+                                                <input type="text" class="form-control" name="txtCount">
                                             </div>
                                         </div>
                                         <div class="col-sm-12" style="padding-top: 80px">
