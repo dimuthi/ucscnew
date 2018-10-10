@@ -1,6 +1,9 @@
 <?php
 $this->load->library('session');
 //echo $_SESSION["accountType"];
+if (!isset($_SESSION["accountType"])) {
+    redirect(base_url() . "login");
+}
 ?>
 <!doctype html>
 <html lang="en">
