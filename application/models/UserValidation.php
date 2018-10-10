@@ -48,7 +48,7 @@ class UserValidation extends CI_Model
 
                         $data = array(
                             'email' => $row->EMAIL,
-//                            'usertype' => $row->USER_TYPE,
+                            'username' => $row->EMAIL,
                             'logged_in' => TRUE,
                             'accountType' => 'Applicant'
                         );
