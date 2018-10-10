@@ -25,7 +25,7 @@
 <script src="<?= base_url('assets/js/perfect-scrollbar.jquery.min.js') ?>" type="text/javascript"></script>
 
 <!-- Include a polyfill for ES6 Promises (optional) for IE11, UC Browser and Android browser support SweetAlert -->
-<script src="../../../../cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/core.js"></script>
+<script src="<?= base_url('assets/ajax/libs/core-js/2.4.1/core.js') ?>"</script>
 
 <!-- Library for adding dinamically elements -->
 <script src="<?= base_url('assets/js/arrive.min.js') ?>" type="text/javascript"></script>
@@ -84,6 +84,7 @@
 
 <!-- Material Dashboard DEMO methods, don't include it in your project! -->
 <script src="<?= base_url('assets/js/demo.js') ?>"></script>
+<script src="<?= base_url('assets/js/data-tables.js') ?>"></script>
 
 <script>
     // Facebook Pixel Code Don't Delete

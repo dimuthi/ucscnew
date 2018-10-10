@@ -24,23 +24,26 @@ include "header.php";
                                            width="100%" style="width:100%">
                                         <thead>
                                         <tr>
-                                            <th>Student ID</th>
-                                            <th>Name With Initials</th>
-                                            <th>Email</th>
+                                            <th>Applicant ID</th>
+                                            <th>Applicant Name</th>
+                                            <th>Email Address</th>
+                                            <th>Marks</th>
                                             <th class="disabled-sorting text-right">Remove</th>
                                         </tr>
                                         </thead>
                                         <tfoot>
                                         <tr>
-                                            <th>Student ID</th>
-                                            <th>Name With Initials</th>
-                                            <th>Email</th>
+                                            <th>Applicant ID</th>
+                                            <th>Applicant Name</th>
+                                            <th>Email Address</th>
+                                            <th>Marks</th>
                                             <th class="text-right">Remove</th>
                                         </tr>
                                         </tfoot>
                                         <tbody>
                                         <tr style="font-size: 16px;background-color: white;height: 50px;cursor: pointer"
                                         <td></td>
+                                        <td>abc</td>
                                         <td>abc</td>
                                         <td>abc</td>
                                         <td>abc</td>
@@ -52,33 +55,51 @@ include "header.php";
                                         </tbody>
                                     </table>
                                 </div>
-                            </div><!-- end content-->
-                        </div>
-
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 col-12">
-                        <div class="card">
-                            <form class="form-horizontal" action="" method="post">
-                                <div class="card-header card-header-text" data-background-color="rose">
-                                    <h4 class="card-title" style="font-weight: lighter">APPLICANT DATA</h4>
+                                <div style="height: 50px"></div>
+                                <div class="row">
+                                    <div class="form-horizontal">
+                                        <div class="col-sm-2 label-on-left">Total Marks</div>
+                                        <div class="col-sm-4">
+                                            <div class="form-group label-floating is-empty">
+                                                <label class="control-label"></label>
+                                                <input type="text" class="form-control" disabled value="3">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2 label-on-left">Average</div>
+                                        <div class="col-sm-4">
+                                            <div class="form-group label-floating is-empty">
+                                                <label class="control-label"></label>
+                                                <input type="text" class="form-control" disabled value="50">
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <!-- /.card-header -->
-                                <div class="card-content">
-                                    <div class="row">
-                                        <label class="col-sm-2 label-on-left">Student ID</label>
-                                        <div class="col-sm-9">
+                                <div class="row" style="padding-top: 50px">
+                                    <div class="form-horizontal">
+                                        <div class="col-sm-2 label-on-left">Applicant Name</div>
+                                        <div class="col-sm-10">
                                             <div class="form-group label-floating is-empty">
                                                 <label class="control-label"></label>
                                                 <input type="text" class="form-control" name="txtId" disabled>
                                             </div>
                                         </div>
+                                        <div class="col-sm-2 label-on-left">Marks</div>
+                                        <div class="col-sm-10">
+                                            <div class="form-group label-floating is-empty">
+                                                <label class="control-label"></label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12" style="padding-top: 80px">
+
+                                                <button type="submit" class="btn btn-fill" style="left: 50%;transform: translateX(-50%);font-weight: bold">Submit Marks</button>
+
+                                        </div>
                                     </div>
                                 </div>
-                            </form>
+                            </div><!-- end content-->
                         </div>
-                        <!-- /.card -->
+
                     </div>
                 </div>
 
