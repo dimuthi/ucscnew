@@ -245,14 +245,14 @@ $this->load->library('session');
                 </li>
 
                 <li>
-                    <a data-toggle="collapse" href="#tablesExamples">
+                    <a data-toggle="collapse" href="#notificationExamples">
                         <i class="material-icons">notifications</i>
                         <p> Notifications ( 5 )
                             <b class="caret"></b>
                         </p>
                     </a>
 
-                    <div class="collapse" id="tablesExamples">
+                    <div class="collapse" id="notificationExamples">
                         <ul class="nav">
                             <li>
                                 <a href="tables/regular.html">
