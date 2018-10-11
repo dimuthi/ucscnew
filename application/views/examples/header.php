@@ -201,12 +201,20 @@ if (!isset($_SESSION["accountType"])) {
                 }
                 ?>
 
-                <li>
-                    <a href="calendar.html">
-                        <i class="material-icons">place</i>
-                        <p> Map </p>
-                    </a>
-                </li>
+                <?php
+                if (isset($_SESSION["accountType"])) {
+                    if ($_SESSION["accountType"] == "Applicant") {
+                        ?>
+                        <li>
+                            <a href="calendar.html">
+                                <i class="material-icons">place</i>
+                                <p> Map </p>
+                            </a>
+                        </li>
+                        <?php
+                    }
+                }
+                ?>
 
                 <li
                     <?php
