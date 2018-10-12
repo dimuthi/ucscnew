@@ -2,7 +2,7 @@
 include "header.php";
 ?>
     <div class="content" style="padding-left: 0px;">
-<!--        <nav class="navbar navbar-transparent navbar-absolute">-->
+        <nav class="navbar navbar-transparent navbar-absolute">
             <div class="container-fluid">
 
                 <div class="row">
@@ -114,7 +114,7 @@ include "header.php";
                 </div>
 
             </div>
-<!--        </nav>-->
+        </nav>
     </div>
 
 <?php
