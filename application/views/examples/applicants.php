@@ -53,6 +53,17 @@ include "header.php";
                                                     class="material-icons">close</i></a>
                                     </td>
                                     </tr>
+                                    <tr style="font-size: 16px;background-color: white;height: 50px;cursor: pointer"
+                                    <td></td>
+                                    <td>abcd</td>
+                                    <td>bcdd</td>
+                                    <td>efg</td>
+                                    <td>2 / 100</td>
+                                    <td class="text-right">
+                                        <a href="#" class="btn btn-simple btn-danger btn-icon remove"><i
+                                                    class="material-icons">close</i></a>
+                                    </td>
+                                    </tr>
                                     </tbody>
                                 </table>
                             </div>
@@ -82,6 +93,14 @@ include "header.php";
                             </div>
                             <div class="row" style="padding-top: 50px">
                                 <div class="form-horizontal">
+                                    <div class="col-sm-2 label-on-left">Applicant ID</div>
+                                    <div class="col-sm-10">
+                                        <div class="form-group label-floating is-empty">
+                                            <label class="control-label"></label>
+                                            <input id="txtId" type="text" class="form-control" name="txtId"
+                                                   disabled>
+                                        </div>
+                                    </div>
                                     <div class="col-sm-2 label-on-left">Applicant Name</div>
                                     <div class="col-sm-10">
                                         <div class="form-group label-floating is-empty">
