@@ -54,9 +54,8 @@ if (!empty($_GET["error"])) {
                                         <label class="control-label">I'm a/an</label>
                                         <select class="selectpicker" data-style="select-with-transition"
                                                 name="accountType" style="color: white">
-                                            <option value="user">User</option>
                                             <option value="applicant">Applicant</option>
-
+                                            <option value="user">User</option>
                                         </select>
                                     </div>
                                     <!--<select class="selectpicker" data-style="select-with-transition" multiple title="Choose City" data-size="7">-->
