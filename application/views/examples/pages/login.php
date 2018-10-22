@@ -58,7 +58,6 @@ if (!empty($_GET["error"])) {
                                             <option value="user">User</option>
                                         </select>
                                     </div>
-                                    <!--<select class="selectpicker" data-style="select-with-transition" multiple title="Choose City" data-size="7">-->
                                 </div>
 
                                 <div class="input-group">
